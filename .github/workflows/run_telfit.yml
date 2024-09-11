@@ -25,4 +25,4 @@ jobs:
 
     - name: Install TelFit
       run: |
-        python -m pip install TelFit
+        pip install TelFit
