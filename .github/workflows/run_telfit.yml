@@ -25,4 +25,4 @@ jobs:
 
     - name: Install TelFit
       run: |
-        pip install git+https://github.com/j-faria/Telluric-Fitter.git --versbose
+        pip install git+https://github.com/j-faria/Telluric-Fitter.git --verbose
