@@ -20,7 +20,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install -U pip
-        python -m pip install cython
+        python -m pip install numpy cython requests
         python -c "from Cython.Distutils import build_ext"
 
     - name: Install TelFit
